@@ -1,0 +1,71 @@
+#animated {
+    background-image: url('http://assets.stickpng.com/images/58428ed0a6515b1e0ad75ab6.png');
+    min-height: 100%;
+    animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+    0%, 100% {
+        background-color: lightgreen;
+    }
+    25%, 75% {
+        background-color: lightsalmon;
+    }
+    50% {
+        background-color: plum;
+    }
+}
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    font-size: 40px;
+    text-align: center;
+}
+
+#displayField, #display2, #bottomButton {
+    color: white;
+    border: solid 5px white;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+#displayField {
+    background-color: crimson;
+}
+
+#display2 {
+    background-color: deepskyblue;
+    margin-bottom: 25px;
+    height: auto;
+}
+
+#historical {
+    margin: auto;
+    text-align: center;
+}
+
+h4 {
+    padding: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#bottomButton {
+    display: block;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+#Currencies {
+    width: auto;
+    display: inline;
+}
